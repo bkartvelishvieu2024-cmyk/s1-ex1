@@ -1,22 +1,14 @@
-# This is a readme that I changed. 
-## Use a readme for all your projects so people <br /> can understand what you wanted to do.  
-  
-You can use different styles like: **bold**, *italic,*   
-You can also add [links](http://google.com)
-  
-You can add some code:  
-` print("Hello World!!")`  
+# Number Guessing Game
 
-You can write a list:
-- Bread
-- Milk
-- ~~Oreos~~
+This is a simple interactive Python game where the user tries to guess a randomly generated number between 1 and 10.
 
-You can also add some tasks:
-- [x] Write a readme
-- [ ] Finish the python course
-- [ ] Profit
+The program provides feedback after each guess, indicating whether the guess is too high or too low. The game continues until the correct number is guessed. It also tracks the number of attempts taken by the user.
 
-[More on how to write readmes](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
- 
-:sparkles: :sparkles: :sparkles: :sparkles:
+## Features
+- Random number generation using Python's `random` module  
+- Continuous user input with a loop  
+- Immediate feedback on each guess  
+- Attempt counter to track performance  
+
+## Purpose
+This project demonstrates basic Python concepts such as loops, conditionals, user input handling, and simple program logic.
